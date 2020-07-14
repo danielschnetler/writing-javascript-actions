@@ -1,7 +1,7 @@
 const core = require("@actions/core")
 const github = require("@actions/github")
 
-asyn function() {
+async function() {
 	try {
 		const issueTitle = core.getInput("issue-title");
 		const jokeBody = core.getInput("joke");
