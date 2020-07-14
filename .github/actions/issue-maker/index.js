@@ -4,7 +4,6 @@ const github = require("@actions/github")
 async function run() {
 	try {
 		const issueTitle = core.getInput("issue-title");
-		console.log(issueTitle);
 		const jokeBody = core.getInput("joke");
 		const token = core.getInput("repo-token");
 
